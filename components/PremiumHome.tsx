@@ -259,7 +259,7 @@ export default function PremiumHome() {
                   <ArrowRight className="h-4 w-4" />
                 </a>
               </div>
-              <p className="mt-3 text-sm text-slate-500">30 min, un flux réel de votre site  zéro engagement.</p>
+              <p className="mt-3 text-sm text-slate-500">30 min, un flux réel de votre site  — zéro engagement.</p>
             </div>
 
             <div className="relative">

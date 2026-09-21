@@ -44,6 +44,7 @@ export const contactDetails = {
   email: "lb.loicberger@gmail.com",
   mailto: "mailto:lb.loicberger@gmail.com",
   diagnosticMailto: "mailto:lb.loicberger@gmail.com?subject=Diagnostic%20IoT%20Berlo",
+  calendlyDiagnostic: "https://calendly.com/lb-loicberger/30min",
   phoneDisplay: "06 67 88 09 63",
   phoneHref: "tel:+33667880963"
 };

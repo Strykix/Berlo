@@ -186,10 +186,10 @@ export default function PremiumHome() {
           </div>
 
           <a
-            href="#contact"
+            href={contactDetails.calendlyDiagnostic} target="_blank" rel="noopener noreferrer"
             className="hidden rounded-md bg-slate-950 px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 lg:inline-flex"
           >
-            Demander un diagnostic
+            Réserver un diagnostic 30 min
           </a>
 
           <button
@@ -230,10 +230,10 @@ export default function PremiumHome() {
                 Conseil indépendant en IoT industriel & Digital Twin
               </p>
               <h1 className="mt-6 max-w-4xl text-5xl font-semibold text-slate-950 sm:text-6xl lg:text-7xl">
-                Faire de vos données terrain un levier de performance.
+                Vos outils et palettes se perdent encore dans l&apos;atelier ?
               </h1>
               <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
-                Berlo accompagne les PME industrielles, sites techniques et acteurs énergie pour identifier les bons cas d&apos;usage IoT, connecter les équipements utiles et transformer les données terrain en gains mesurables.
+                On localise un premier périmètre en 30 jours — pas un projet de 18 mois.
               </p>
               <div className="mt-7 grid gap-3 sm:max-w-2xl">
                 {heroOutcomes.map((item) => (
@@ -245,10 +245,10 @@ export default function PremiumHome() {
               </div>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <a
-                  href="#contact"
+                  href={contactDetails.calendlyDiagnostic} target="_blank" rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 rounded-md bg-blue-700 px-6 py-3.5 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
                 >
-                  Identifier mes cas d&apos;usage IoT
+                  Réserver un diagnostic 30 min
                   <ArrowRight className="h-4 w-4" />
                 </a>
                 <a
@@ -259,6 +259,7 @@ export default function PremiumHome() {
                   <ArrowRight className="h-4 w-4" />
                 </a>
               </div>
+              <p className="mt-3 text-sm text-slate-500">30 min, un flux réel de votre site  — zéro engagement.</p>
             </div>
 
             <div className="relative">
@@ -650,10 +651,10 @@ export default function PremiumHome() {
                 </p>
                 <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                   <a
-                    href={contactDetails.diagnosticMailto}
+                    href={contactDetails.calendlyDiagnostic} target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 rounded-md bg-blue-700 px-6 py-3.5 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-800"
                   >
-                    Écrire à Berlo
+                    Réserver un diagnostic 30 min
                     <ArrowRight className="h-4 w-4" />
                   </a>
                   <a href={contactDetails.phoneHref} className="inline-flex items-center justify-center rounded-md border border-slate-300 bg-white px-6 py-3.5 text-sm font-semibold text-slate-950">
